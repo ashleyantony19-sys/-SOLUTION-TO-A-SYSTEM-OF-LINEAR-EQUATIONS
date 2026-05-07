@@ -49,7 +49,6 @@ print("y =", X[1])
 
 
 
-
 ## Result: 
 
 
