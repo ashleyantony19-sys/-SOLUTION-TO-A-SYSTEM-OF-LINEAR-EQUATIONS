@@ -31,7 +31,7 @@ print("y =", X[1])
 ## Output:
 <img width="911" height="570" alt="image" src="https://github.com/user-attachments/assets/e6d5ef29-6b0f-471f-b11b-4e3bae037d3c" />
 
-<img width="747" height="393" alt="image" src="https://github.com/user-attachments/assets/ad8392aa-04a4-4245-a839-f03d81fda9b4" />
+<img width="1568" height="347" alt="image" src="https://github.com/user-attachments/assets/c1cab74b-f963-4353-855a-84f3a0454f96" />
 
 
 ## Result: 
