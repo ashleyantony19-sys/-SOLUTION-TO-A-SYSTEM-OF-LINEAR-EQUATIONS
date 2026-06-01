@@ -15,43 +15,24 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 ```
+#Program to find the solution for the given linear equations.
+#Developed by: ASHLEY ANTONY
+#RegisterNumber: 212225220013
+import os 
+os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
-
-A = np.array([[2, 3],
-              [1, -2]])
-
-B = np.array([8, -3])
-
-X = np.linalg.solve(A, B)
-
-print("Solution of the system of equations is:")
-print("x =", X[0])
-print("y =", X[1])
+MatrixA=np.array([[1,-3],[3,1]])
+const=np.array([0,10])
+res=np.linalg.solve(MatrixA,const)
+print(res)
 ```
 ## Output:
 
-
-
-
-<img width="911" height="570" alt="image" src="https://github.com/user-attachments/assets/e6d5ef29-6b0f-471f-b11b-4e3bae037d3c" />
-
-
-
-
-
-
-
-
-<img width="1568" height="347" alt="image" src="https://github.com/user-attachments/assets/c1cab74b-f963-4353-855a-84f3a0454f96" />
-
-
-
+<img width="661" height="220" alt="WhatsApp Image 2026-06-01 at 9 32 18 AM" src="https://github.com/user-attachments/assets/bc1c2a3e-979c-426d-96a0-ec38e3cc2871" />
 
 
 
 ## Result: 
-
-
 
 
 Thus the solutions for the linear equations are successfully solved using python program
